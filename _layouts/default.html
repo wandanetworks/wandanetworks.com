@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://wandanetworks.com/files/creative/by-sa.svg" height="40">
+        <img src="https://wandanetworks.com/files/branding/iso-logo.png" height="40">
+      </a>
+      <div class="d-flex">
+        <button class="btn btn-secondary btn-sm me-2" onclick="history.back()"><i
+            class="fa-solid fa-arrow-left icon-button"></i></button>
+        <button class="btn btn-secondary btn-sm" onclick="history.forward()"><i
+            class="fa-solid fa-arrow-right icon-button"></i></button>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-2 col-sm-0"></div>
+      <div class="col-md-8 col-sm-12">
+        {{ content }}
+      </div>
+      <div class="col-md-2 col-sm-0"></div>
+    </div>
+  </div>
+</body>
+
+</html>

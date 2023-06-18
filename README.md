@@ -1,3 +1,5 @@
+<img src="/files/branding/iso-logo.png" height=50/>
+
 # wanda-web
 Wanda Networks website with Jekyll for GitHub Pages.
 
